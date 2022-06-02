@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main void function takes no arguments, entry point
- * returns 0
+ * main - takes no arguments, entry point
+ * Return: 0 value always
  */
 int main(void)
 {
