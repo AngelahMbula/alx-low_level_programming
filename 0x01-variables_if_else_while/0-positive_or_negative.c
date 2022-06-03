@@ -2,23 +2,18 @@
 #include <time.h>
 #include <stdio.h>
 
-
 /**
  * main - takes no arguments, entry point
  * Return: 0 value always
 */
 
 int main(void)
-
 {
 
 	int n;
 
-
-
-	srand(time(0));
-
-	n = rand() - RAND_MAX / 2;
+        srand(time(0));
+        n = rand() - RAND_MAX / 2;
 
         if ( n > 0 )
 	{
