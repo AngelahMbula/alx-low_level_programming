@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
- * main - takes no arguments entry point
+ * main - print alphabet lowercase and uppercase
  * Return: 0 value always
 */
 int main(void)
