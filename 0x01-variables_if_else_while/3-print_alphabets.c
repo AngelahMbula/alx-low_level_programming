@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /*
- * main - Entry point takes no arguments
+ * main - takes no arguments entry point
  * Return: 0 value always
- */
+*/
 int main(void)
 {
 	char ch;
