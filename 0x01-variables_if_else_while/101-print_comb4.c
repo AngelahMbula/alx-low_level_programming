@@ -22,11 +22,11 @@ int main(void)
 	putchar(k + '0');
 	if (i != j && j != k)
 	{
-	putchar(',');
-	}
-	putchar(' ');
+	putchar(', ');
 	}
 	}
 	}
+	}
+	putchar('\n');
 	return (0);
 }
