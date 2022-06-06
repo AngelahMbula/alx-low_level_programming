@@ -10,16 +10,22 @@ int main(void)
 	int n;
 	int i;
 
-	for (n = 0; n < 99; n++)
-	for (i = n;;)
+	for (n = 0; n <= 98; n++)
 	{
-	if ((i % 10) == 0)
+	for (i = n + 1; i <= 99; i++)
 	{
-	putchar(n);
+	putchar((n / 10) + '0');
+	putchar((n % 10) + '0');
+	putchar(' ');
+	putchar((i / 10) + '0');
+	putchar((i % 10) + '0');
+	if (n == 98 && i == 99)
+	{
 	putchar(',');
 	putchar(' ');
+	}
+	}
+	}
 	putchar('\n');
-	}
-	}
 	return (0);
 }
