@@ -19,7 +19,7 @@ int main(void)
 	{
 	putchar(i + '0');
 	putchar(j + '0');
-	putchar(k);
+	putchar(k + '0');
 	if (i != j && j != k)
 	{
 	putchar(',');
