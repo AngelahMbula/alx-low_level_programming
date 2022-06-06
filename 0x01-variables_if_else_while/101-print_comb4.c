@@ -23,8 +23,8 @@ int main(void)
 	if (i != j && j != k)
 	{
 	putchar(',');
-	putchar(' ');
 	}
+	putchar(' ');
 	}
 	}
 	}
