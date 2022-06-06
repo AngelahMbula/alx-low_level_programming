@@ -17,14 +17,14 @@ int main(void)
 	{
 	for (k = j + 1; k <= 9; k++)
 	{
-	if (i != j && j != k && j > 0)
+	putchar(i + '0');
+	putchar(j + '0');
+	putchar(k + '0');
+	if (i != j && j != k && i < 8)
 	{
 	putchar(',');
 	putchar(' ');
 	}
-	putchar(i + '0');
-	putchar(j + '0');
-	putchar(k + '0');
 	}
 	}
 	}
