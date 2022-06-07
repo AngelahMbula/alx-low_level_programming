@@ -2,8 +2,8 @@
 #include <unistd.h>
 
 /**
- *print_alphabets - prints alphabet, lowercase
- *Return: void
+ *main - check code
+ *Return: 0 always
  */
 int main(void)
 {

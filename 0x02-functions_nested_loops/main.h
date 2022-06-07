@@ -19,9 +19,7 @@
 int _putchar(char c)
 
 {
-	const char c[] = "_putchar";
-
-	return (_putchar(1, c, -1));
+	return (write(1, _putchar, -1));
 
 }
 
