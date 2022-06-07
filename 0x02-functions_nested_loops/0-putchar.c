@@ -2,10 +2,18 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes the character c to stdout
+ * main - Prints the word "_putchar"
  * Return: 0 value
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(1, &c, 1);
+	int x;
+	int c[] = _putchar();
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(c[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
