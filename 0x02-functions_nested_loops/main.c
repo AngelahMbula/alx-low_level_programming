@@ -22,7 +22,7 @@ int _putchar(char c)
 
 void print_alphabet()
 {
-	int ch;
+	int ch = print_alphabet();
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
