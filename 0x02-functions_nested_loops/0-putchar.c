@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-_putchar(1, &c, 9);
+write(1, "_putchar", 9);
 return (0);
 }
