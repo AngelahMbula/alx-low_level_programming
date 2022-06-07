@@ -9,5 +9,5 @@ int _putchar(char c);
 #define MAIN_H_
 
 void print_alphabet(void);
-
+	print_alphabet();
 #endif /*MAIN_H_*/
