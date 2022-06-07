@@ -2,4 +2,4 @@
 #define MAIN_H_
 
 int _putchar(char c);
-#endif //MAIN_H_
+#endif /*MAIN_H_*/
