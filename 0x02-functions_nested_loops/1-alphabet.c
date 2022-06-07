@@ -7,6 +7,12 @@
  */
 int main(void)
 {
-_putchar('print_alphabet');
-return (0);
+	int ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+	putchar('ch');
+	}
+	putchar('\n');
+	return (0);
 }
