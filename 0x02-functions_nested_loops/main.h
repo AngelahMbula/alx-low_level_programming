@@ -19,9 +19,9 @@
 int _putchar(char c)
 
 {
-	const char msg[] = "_putchar";
+	const char c[] = "_putchar";
 
-	return (write(1, msg, -1));
+	return (_putchar(1, c, -1));
 
 }
 
