@@ -1,6 +1,8 @@
 #ifdef MAIN_H_ /*  */
 #define MAIN_H_
 
+void print_alphabet( );
+
 int _putchar(char c);
 
 #endif /*MAIN_H_*/
