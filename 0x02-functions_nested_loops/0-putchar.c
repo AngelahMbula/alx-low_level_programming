@@ -7,13 +7,5 @@
  */
 int main(void)
 {
-	int x;
-	int c[] = _putchar();
-
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(c[i]);
-	}
-	_putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
