@@ -8,6 +8,6 @@
 int main(void)
 {
 	for (int n = 'a'; n <= 'z'; n++)
-		print_alphabet();
+		print_alphabet( );
 	return (0);
 }
