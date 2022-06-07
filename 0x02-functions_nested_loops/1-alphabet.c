@@ -5,11 +5,11 @@
  *print_alphabets - prints alphabet, lowercase
  *Return: void
  */
-void print_alphabet(void)
+int main(void)
 {
-	int ch;
+	int ch = print_alphabet;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		_putchar(ch);
+	_putchar(ch);
 	_putchar('\n');
+	return (0);
 }
