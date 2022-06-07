@@ -20,13 +20,11 @@ int _putchar(char c)
 	return (write(1, &c, 1));
 }
 
-void print_alphabet()
+void print_alphabet(void)
 {
-	int ch = print_alphabet();
+	int n = 0;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-	putchar(ch);
-	}
+	putchar(n);
 	putchar('\n');
+	return;
 }
