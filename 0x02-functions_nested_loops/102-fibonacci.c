@@ -9,16 +9,14 @@ int main(void)
 
 	for (i = 0; i < 50; i++)
 	{
-		if (i < 1)
-			next = i;
-		else
-		{
-			next = f1 + f2;
-			f1 = f2;
-			f2 = f1;
-		}
+		next = f1 + f2;
 		printf("%d, ", next);
+
+		f1 = f2;
+		f2 = next;
+
+		if (i == 0)
+			printf("\n");
 	}
-	printf("\n");
 	return (0);
 }
