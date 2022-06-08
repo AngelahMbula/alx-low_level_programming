@@ -10,7 +10,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		if (i < 1)
-			next = c;
+			next = i;
 		else
 		{
 			next = f1 + f2;
