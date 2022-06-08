@@ -10,7 +10,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		next = f1 + f2;
-		printf("%d,", next);
+		printf("%d", next);
 
 		f1 = f2;
 		f2 = next;
@@ -18,7 +18,7 @@ int main(void)
 		if (i == 0)
 			printf("\n");
 		else
-			printf(" ");
+			printf(", ");
 	}
 	return (0);
 }
