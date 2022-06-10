@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include "main.h"
+#include <math.h>
 
 /**
  * main - entry point
@@ -30,6 +31,7 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
+
 	printf("\n");
 
 	return (0);
