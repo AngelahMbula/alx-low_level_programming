@@ -9,7 +9,9 @@
 
 void puts2(char *str)
 {
-	int i, len, z;
+	int i, z;
+	
+	int len = 0;
 
 	char *y = str;
 
