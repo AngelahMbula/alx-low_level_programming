@@ -10,19 +10,14 @@
 
 void print_rev(char *s)
 {
-	int i, len, temp;
-	
-	len = strlen(s);
+	int length = strlen (s[0]);
 
-	for (i = 0; i < len / 2; i++)
-	{
-		temp = s[i];
-		s[i] = s[len - i - 1];
-		s[len - i - 1] = temp;
-	}
-	{
+	int i, j;
 
-		_putchar(s[i]);
+	for (i = 0, j = length - 1; i < length; i++, j--)
+	{
+		s[1][i] = s[0][j];
 	}
+	_putchar(s[1]);
 	_putchar('\n');
 }
