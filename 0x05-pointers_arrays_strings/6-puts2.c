@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
  * puts2 - prints every other character of a string
@@ -20,7 +21,7 @@ void puts2(char *str)
 		y++;
 	}
 	i = len - 1;
-	for (z = 0; z <= i; z++)
+	for (z = 0; z <= strlen(i); z += 2)
 	{
 		if (z % 2 == 0)
 		{
