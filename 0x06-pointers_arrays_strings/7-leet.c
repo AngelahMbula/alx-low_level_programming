@@ -3,8 +3,8 @@
 #include <string.h>
 
 /**
- * leet - encodes a string into 1337
- * @n: string to be encoded
+ *leet - encodes a string into 1337
+ *@n: string to be encoded
  *Return: resulting encoded string
  */
 
@@ -13,7 +13,6 @@ char *leet(char *n)
 	int i, j;
 	
 	char s1[] = "aAeEoOtTlL";
-
 	char s2[] = "4433007711";
 
 	for (i = 0; n[i] != '\0'; i++)
