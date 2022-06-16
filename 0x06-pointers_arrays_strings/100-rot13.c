@@ -12,16 +12,11 @@ char *rot13(char *c)
 {
 	int i;
 
-	int a = sizeof(c[0]);
-
-	char out [a];
-
-	for (i = 0; i <= a; i += 1)
+	for (i = 0; c[i] != '\0'; i++)
 	{
-		if (c[i] >= 'a' && (c[i] + 13) <= 'z')
-		{
-			out[i] = c[i] + 13;
-		}
+		if (*(c + i) >= 'a' && *(c + i) < 'n')
+			*(c + i) += 13;
+		else (*(c + i) >= 'n' && *(c + i) <= 'z')
+			*(c + i) -= 13;
 	}
-	return (out);
 }
