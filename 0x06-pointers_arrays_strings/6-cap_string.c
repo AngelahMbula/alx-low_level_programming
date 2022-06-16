@@ -31,7 +31,7 @@ char *cap_string(char *s)
 		s[i] == '{'||
 		s[i] == '}')
 	{
-		++1;
+		++i;
 		if (s[i] >= 'a' && s[i] <= 'z')
 		{
 			s[i] = s[i] - 32;
@@ -41,6 +41,7 @@ char *cap_string(char *s)
 	else{
 		if (s[i] >= 'A' && s[i] <= 'Z')
 			s[i] = s[i] + 32;
+	}
 	}
 	return (s);
 }
