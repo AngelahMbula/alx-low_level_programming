@@ -6,6 +6,7 @@
  * _strncat - concatenates two strings
  * @dest: pointer to string to be concatenated on
  * @src: source string to be appended
+ * @n: number of bytes from src to be appended to dest
  * Return: pointer to destination string
  */
 
