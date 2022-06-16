@@ -12,11 +12,12 @@ char *rot13(char *c)
 {
 	int i;
 
-	for (i = 0; c[i] != '\0'; i++)
+	for (i = 0; c && c[i]; ++i)
 	{
-		if (*(c + i) >= 'a' && *(c + i) < 'n')
-			*(c + i) += 13;
-		else (*(c + i) >= 'n' && *(c + i) <= 'z')
-			*(c + i) -= 13;
+		if (c[i] >= 'a' && (c[i] + 13) <= 'z')
+		{
+			c[i] = c[i] + 13;
+		}
 	}
+	return (c);
 }
