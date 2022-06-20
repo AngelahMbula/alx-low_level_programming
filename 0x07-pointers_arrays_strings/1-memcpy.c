@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 
-/*
+/**
  * _memcpy - copies memory area
  * @dest: memory copied to
  * @src: memory copied from
