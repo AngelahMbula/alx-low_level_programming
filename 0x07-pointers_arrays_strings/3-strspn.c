@@ -15,8 +15,6 @@ unsigned int_strspn(char *s, char *accept)
 
 	unsigned int len = 0;
 
-	if ((s == NULL) || (accept == NULL))
-		return len;
 	while (*s)
 	{
 		for (i = 0; accept[i]; i++)
