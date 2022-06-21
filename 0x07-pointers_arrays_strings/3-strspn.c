@@ -13,17 +13,23 @@ unsigned int_strspn(char *s, char *accept)
 {
 	int i;
 
-	int count = 0;
+	unsigned int len = 0;
 
-	for (i = 0; accept[i]; i++)
+	if ((s == NULL) || (accept == NULL))
+		return len;
+	while (*s)
 	{
-		if (*s == accept[i])
+		for (i = 0; accept[i]; i++)
 		{
-			count++;
-			break;
+			if (*s == accept[i])
+			{
+				len++;
+				break;
+			}
+			else if (accept[i + 1] == '\0')
+				return (len);
 		}
-		else if (accept[i + 1] == '\0')
-			s++;
+		s++;
 	}
-	return (count);
+	return (len);
 }
