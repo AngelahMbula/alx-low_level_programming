@@ -4,13 +4,14 @@
 /**
  * is_prime_number - returns 1 if the input integer is a prime number
  * @n: given input
+ * @num: number to be checked
  * Return: 0 if number is divisible
  * 1 if number is not divisible
  */
 
 int is_prime_number(int num, int n)
 {
-	if (n == 1 || (n == num / 2))
+	if (n > 1 || (n == num / 2))
 	{
 		return (1);
 	}
