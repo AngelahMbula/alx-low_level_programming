@@ -8,7 +8,7 @@
  * Return: void
  */
 
-void _print_rev_recursion(char *S)
+void _print_rev_recursion(char *s)
 {
 	if (*s == '\0')
 	{
