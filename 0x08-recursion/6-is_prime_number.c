@@ -10,19 +10,19 @@
 
 int is_prime_number(int num, int n)
 {
-	if (n == 1)
+	if (n == 1 || (i == num / 2))
 	{
 		return (1);
 	}
 	else
 	{
-		if (num % n == 0)
+		if (num % n == 0 || n <= 1)
 		{
 			return (0);
 		}
 		else
 		{
-			return (is_prime_number(num, n - 1));
+			return (is_prime_number(num, n + 1));
 		}
 	}
 }
