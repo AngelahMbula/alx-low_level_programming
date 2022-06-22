@@ -8,7 +8,7 @@
  * 1 if number is not divisible
  */
 
-int is_prime_number(int n)
+int is_prime_number(int num, int n)
 {
 	int num;
 
@@ -24,7 +24,7 @@ int is_prime_number(int n)
 		}
 		else
 		{
-			return (is_prime_number(num, n - 1);
+			return (is_prime_number(num, n - 1));
 		}
 	}
 }
