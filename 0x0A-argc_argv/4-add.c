@@ -10,7 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	int i, num = 0, sum = 0;
+	int i = 1, num = 0, sum = 0;
 
 	if (argc != 2)
 	{
