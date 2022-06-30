@@ -21,15 +21,19 @@ char *string_nconcat(char  *s1, char *s2, unsigned int n)
 		s2 = "";
 	while (s1[length] != '\0')
 	{
-		++length;
+		length++;
 	}
 	s = malloc(sizeof(char) * (j + n + 1));
 	if (s == NULL)
 		return (NULL);
-	for (j = 0; s2[j] != '\0'; ++j, ++length)
+	for (j = 0; s1[j]; j++))
 	{
-		s1[length] = s2[j];
+		s[length++] = s1[j];
 	}
-	s1[length] = '\0';
+	for (j = 0; s2[j] && j < n; j++)
+	{
+		s[length++] = s2[j];
+	}
+	s[length] = '\0';
 	return (s);
 }
