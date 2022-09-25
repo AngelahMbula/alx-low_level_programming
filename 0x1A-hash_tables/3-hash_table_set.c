@@ -1,17 +1,11 @@
 #include "hash_tables.h"
 /**
- *
- *  *hash_table_set - adds an element to the hash table
- *
- *   *@ht: pointer to the hash
- *
- *    *@key: pointer to the key
- *
- *     *@value: value to add
- *
- *      *Return: 1 if is success or 0
- *
- *       */
+ *hash_table_set - adds an element to the hash table
+ *@ht: pointer to the hash
+ *@key: pointer to the key
+ *@value: value to add
+ *Return: 1 if is success or 0
+ */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	unsigned long index, size;
