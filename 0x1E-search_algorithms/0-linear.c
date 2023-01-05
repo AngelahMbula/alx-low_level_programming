@@ -6,7 +6,7 @@
  * @value: value to search for
  * Return: first index where value is located
  */
-int linear_search(int *array, size_t size, value)
+int linear_search(int *array, size_t size, int value)
 {
 	unsigned int i;
 
